@@ -8,7 +8,7 @@ router.post('/', async (req, res) => {
     req.session.save(() => {
       req.session.logged_in = true;
       req.session.user = {
-        name: userData.name,
+        userName: userData.userName,
         email: userData.email,
         id: userData.id
       };
@@ -46,7 +46,7 @@ router.post('/login', async (req, res) => {
     req.session.save(() => {
       req.session.logged_in = true;
       req.session.user = {
-        name: userData.name,
+        userName: userData.userName,
         email: userData.email,
         id: userData.id
       };
