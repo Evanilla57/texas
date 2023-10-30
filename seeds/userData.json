@@ -1,17 +1,20 @@
 [
   {
-    "name": "First User",
+    "userName": "xXf1r3dr4g0nXx",
     "email": "firstuser@bootcamp.com",
-    "password": "password12345!"
+    "password": "password12345!",
+    "user_id": 1
   },
   {
-    "name": "Second User",
+    "userName": "aishiteru_without_the_eru",
     "email": "seconduser@bootcamp.com",
-    "password": "password12345!"
+    "password": "password12345!",
+    "user_id": 2
   },
   {
-    "name": "Third User",
+    "userName": "RubberBabyBuggyBumper91",
     "email": "thirduser@bootcamp.com",
-    "password": "password12345!"
+    "password": "password12345!",
+    "user_id": 3
   }
 ]
